@@ -2,7 +2,7 @@
  * CONFIGURAÇÃO DO SITE — Semeadura Espírita
  * Edite somente os valores abaixo antes de publicar.
  */
-const SEMEADURA_CONFIG = {
+window.SEMEADURA_CONFIG = {
   appVersion: "0.8.4",
   androidLabel: "Android",
   // Depois de criar a Release no GitHub, substitua pelo endereço da Release.
