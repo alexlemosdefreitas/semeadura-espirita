@@ -8,9 +8,9 @@ window.SEMEADURA_CONFIG = {
   // Depois de criar a Release no GitHub, substitua pelo endereço da Release.
   downloadUrl: "https://github.com/alexlemosdefreitas/semeadura-espirita/releases/download/v0.8.4/semeadura-espirita-v0.8.4.apk",
   // E-mail que aparecerá no site.
-  email: "SEU_EMAIL_AQUI",
+  email: "alexlemosdefreitas@gmail.com",
   // Chave PIX que aparecerá no site.
-  pixKey: "SUA_CHAVE_PIX_AQUI",
+  pixKey: "alexlemosdefreitas@gmail.com",
   // Opcional: nome do responsável/projeto para identificação do PIX.
   pixName: "Semeadura Espírita",
   // Opcional: cidade/UF ou apenas Brasil.
