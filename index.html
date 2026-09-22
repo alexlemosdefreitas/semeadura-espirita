@@ -3,65 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta
-    name="theme-color"
-    content="#C5A55D"
-  >
-
-  <meta
-    name="description"
-    content="Semeadura Espírita — aplicativo gratuito para leitura, estudo e reflexão, com conteúdo disponível offline."
-  >
-
-  <link
-    rel="icon"
-    type="image/png"
-    href="assets/app-icon.png"
-  >
-
+  <meta name="theme-color" content="#C5A55D">
+  <meta name="description" content="Semeadura Espírita — aplicativo gratuito para leitura, estudo e reflexão, com conteúdo disponível offline.">
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
   <title>Semeadura Espírita — Conhecimento que ilumina</title>
-
-  <link
-    rel="stylesheet"
-    href="style.css"
-  >
-
-  <script
-    defer
-    src="config.js"
-  ></script>
-
-  <script
-    defer
-    src="script.js"
-  ></script>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
 </head>
 
 <body>
 
-  <!-- =========================
-       CABEÇALHO
-       ========================= -->
-
   <header class="site-header">
     <div class="container nav-wrap">
 
-      <a
-        class="brand"
-        href="#inicio"
-        aria-label="Semeadura Espírita — início"
-      >
-        <img
-          src="assets/app-icon.png"
-          alt=""
-          class="brand-icon"
-        >
-
-        <span class="brand-name">
-          SEMEADURA<br>
-          <small>ESPÍRITA</small>
-        </span>
+      <a class="brand" href="#inicio" aria-label="Semeadura Espírita — início">
+        <img src="assets/app-icon.png" alt="" class="brand-icon">
+        <span class="brand-name">SEMEADURA<br><small>ESPÍRITA</small></span>
       </a>
 
       <nav aria-label="Navegação principal">
@@ -72,99 +30,82 @@
         <a href="#contato">Contato</a>
       </nav>
 
-      <a
-        class="nav-cta"
-        href="#download"
-      >
-        Baixar APK
-      </a>
+      <a class="nav-cta" href="#download">Baixar APK</a>
 
     </div>
   </header>
 
 
-  <!-- =========================
-       CONTEÚDO PRINCIPAL
-       ========================= -->
-
   <main>
 
-    <!-- =========================
-         HERO
-         ========================= -->
+    <section id="inicio" class="hero">
 
-    <section
-      id="inicio"
-      class="hero"
-    >
+      <div class="hero-glow"></div>
+
       <div class="container hero-grid">
 
         <div class="hero-copy">
 
           <div class="eyebrow">
-            SEMEADURA ESPÍRITA
+            <span class="dot"></span>
+            Projeto gratuito e independente
           </div>
 
           <h1>
-            Conhecimento que ilumina.
-            <span>Estudo que transforma.</span>
+            Conhecimento que ilumina.<br>
+            <em>Estudo que transforma.</em>
           </h1>
 
-          <p class="hero-text">
-            Um aplicativo gratuito para leitura, estudo e reflexão espírita,
-            desenvolvido para funcionar também sem conexão com a internet.
+          <p class="lead">
+            Um aplicativo criado para facilitar a leitura, o estudo e a reflexão espírita,
+            com conteúdos organizados em um único ambiente e disponíveis para acesso offline.
           </p>
 
           <div class="hero-actions">
 
-            <a
-              class="button button-primary"
-              href="#download"
-            >
-              Baixar aplicativo
+            <a class="button button-primary" href="#download">
+              Baixar gratuitamente <span>↓</span>
             </a>
 
-            <a
-              class="button button-secondary"
-              href="#projeto"
-            >
+            <a class="button button-ghost" href="#projeto">
               Conhecer o projeto
             </a>
 
           </div>
 
-          <div class="hero-note">
-            Gratuito • Android • Funcionamento offline
+          <div class="trust-row">
+            <span>Android</span>
+            <i></i>
+            <span>v<span data-version>0.8.4</span></span>
+            <i></i>
+            <span>Conteúdo offline</span>
           </div>
 
         </div>
 
 
-        <div class="hero-art">
+        <div
+          class="hero-art"
+          aria-label="Identidade visual do Semeadura Espírita"
+        >
 
-          <div class="hero-card">
+          <div class="sun-halo"></div>
 
+          <div class="icon-card">
             <img
               src="assets/app-icon.png"
-              alt="Semeadura Espírita"
-              class="hero-icon"
+              alt="Símbolo do Semeadura Espírita"
             >
+          </div>
 
-            <div class="hero-card-title">
-              SEMEADURA
-            </div>
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
 
-            <div class="hero-card-subtitle">
-              ESPÍRITA
-            </div>
-
-            <div class="hero-card-line"></div>
-
-            <div class="hero-card-text">
-              Conhecimento que ilumina.<br>
-              Estudo que transforma.
-            </div>
-
+          <div class="art-caption">
+            <strong>SEMEADURA ESPÍRITA</strong>
+            <span>
+              Uma pequena luz pode acompanhar grandes jornadas.
+            </span>
           </div>
 
         </div>
@@ -173,189 +114,155 @@
     </section>
 
 
-    <!-- =========================
-         O PROJETO
-         ========================= -->
+    <section id="projeto" class="section paper-section">
 
-    <section
-      id="projeto"
-      class="section paper-section"
-    >
-      <div class="container">
-
-        <div class="section-kicker">
-          O projeto
-        </div>
-
-        <h2>
-          Um espaço dedicado ao estudo e à reflexão.
-        </h2>
-
-        <div class="intro-grid">
-
-          <div>
-            <p class="lead">
-              O <strong>Semeadura Espírita</strong> nasceu com uma proposta
-              simples: reunir, organizar e facilitar o acesso a conteúdos
-              destinados ao estudo e à reflexão espírita.
-            </p>
-          </div>
-
-          <div>
-            <p>
-              O aplicativo é gratuito e foi pensado para que os conteúdos
-              possam ser consultados diretamente no dispositivo Android,
-              inclusive em situações em que não exista conexão com a internet.
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =========================
-         RECURSOS
-         ========================= -->
-
-    <section
-      id="recursos"
-      class="section resources-section"
-    >
-      <div class="container">
-
-        <div class="section-kicker">
-          Recursos
-        </div>
-
-        <h2>
-          Conteúdo organizado para acompanhar sua jornada de estudo.
-        </h2>
-
-        <div class="resource-grid">
-
-          <article class="resource-card">
-            <div class="resource-number">01</div>
-
-            <h3>
-              Biblioteca
-            </h3>
-
-            <p>
-              Acesso organizado a materiais de leitura e estudo em um único
-              aplicativo.
-            </p>
-          </article>
-
-
-          <article class="resource-card">
-            <div class="resource-number">02</div>
-
-            <h3>
-              Leitura diária
-            </h3>
-
-            <p>
-              Conteúdos para momentos de leitura, reflexão e estudo ao longo
-              do dia.
-            </p>
-          </article>
-
-
-          <article class="resource-card">
-            <div class="resource-number">03</div>
-
-            <h3>
-              Orações
-            </h3>
-
-            <p>
-              Espaço dedicado a conteúdos de oração e reflexão espiritual.
-            </p>
-          </article>
-
-
-          <article class="resource-card">
-            <div class="resource-number">04</div>
-
-            <h3>
-              Estudos
-            </h3>
-
-            <p>
-              Materiais organizados para apoiar o aprofundamento dos estudos
-              espíritas.
-            </p>
-          </article>
-
-
-          <article class="resource-card">
-            <div class="resource-number">05</div>
-
-            <h3>
-              Aulas e módulos
-            </h3>
-
-            <p>
-              Conteúdos estruturados para facilitar o acompanhamento de
-              diferentes temas e módulos de estudo.
-            </p>
-          </article>
-
-
-          <article class="resource-card">
-            <div class="resource-number">06</div>
-
-            <h3>
-              Funcionamento offline
-            </h3>
-
-            <p>
-              Depois de instalado, o aplicativo pode ser utilizado sem
-              depender de uma conexão permanente com a internet.
-            </p>
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =========================
-         OFFLINE
-         ========================= -->
-
-    <section class="section dark-section">
-
-      <div class="container dark-grid">
+      <div class="container two-col">
 
         <div>
 
           <div class="section-kicker">
-            Offline
+            O projeto
           </div>
 
           <h2>
-            Seu estudo não precisa depender da internet.
+            Um espaço simples para ler, estudar e refletir.
           </h2>
 
         </div>
 
+        <div class="section-text">
+
+          <p>
+            O <strong>Semeadura Espírita</strong> é um projeto independente criado
+            para reunir, em um único aplicativo, conteúdos destinados ao estudo,
+            à leitura e à reflexão espírita.
+          </p>
+
+          <p>
+            A proposta é oferecer uma ferramenta organizada e acessível para que
+            cada pessoa possa encontrar seu próprio ritmo de aprendizado, sem
+            transformar o conhecimento em um serviço pago.
+          </p>
+
+          <p class="quote">
+            “Plante conhecimento. Cultive reflexão. Colha transformação.”
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="recursos" class="section resources-section">
+
+      <div class="container">
+
+        <div class="center-heading">
+
+          <div class="section-kicker">
+            Dentro do aplicativo
+          </div>
+
+          <h2>
+            Conteúdo organizado para acompanhar sua jornada.
+          </h2>
+
+          <p>
+            Os recursos são apresentados de forma clara para facilitar a leitura
+            e o estudo no dia a dia.
+          </p>
+
+        </div>
+
+
+        <div class="resource-grid">
+
+          <article class="resource-card">
+            <span class="resource-icon">▤</span>
+            <h3>Biblioteca</h3>
+            <p>
+              Obras organizadas para leitura e consulta dentro do aplicativo.
+            </p>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-icon">✦</span>
+            <h3>Leitura diária</h3>
+            <p>
+              365 leituras para acompanhar momentos de reflexão ao longo do ano.
+            </p>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-icon">♧</span>
+            <h3>Orações</h3>
+            <p>
+              Uma coleção de preces e momentos destinados à reflexão.
+            </p>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-icon">◇</span>
+            <h3>Estudos</h3>
+            <p>
+              Trilhas estruturadas de aprendizado para avançar progressivamente.
+            </p>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-icon">☰</span>
+            <h3>Aulas e módulos</h3>
+            <p>
+              Conteúdos organizados para acompanhar o desenvolvimento dos estudos.
+            </p>
+          </article>
+
+          <article class="resource-card">
+            <span class="resource-icon">◌</span>
+            <h3>Funcionamento offline</h3>
+            <p>
+              O conteúdo disponibilizado no aplicativo pode ser acessado sem
+              conexão permanente.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section dark-section">
+
+      <div class="container offline-grid">
+
+        <div class="offline-symbol">
+          <img src="assets/app-icon.png" alt="">
+        </div>
 
         <div>
 
-          <p>
-            O Semeadura Espírita foi desenvolvido para que o conteúdo
-            disponibilizado no aplicativo possa ser acessado diretamente
-            no dispositivo, permitindo a utilização mesmo quando não houver
-            conexão com a internet.
-          </p>
+          <div class="section-kicker light">
+            Feito para acompanhar você
+          </div>
+
+          <h2>
+            Um aplicativo que permanece com você.
+          </h2>
 
           <p>
-            Basta instalar o aplicativo e utilizar os recursos disponíveis
-            no próprio aparelho.
+            Depois de instalado, o conteúdo disponibilizado no aplicativo pode
+            ser utilizado offline. Isso permite levar o material de estudo para
+            diferentes lugares, inclusive quando a conexão é limitada ou
+            indisponível.
+          </p>
+
+          <p class="small-note">
+            O site é apenas o canal de apresentação e distribuição.
+            A proposta do aplicativo continua sendo offline.
           </p>
 
         </div>
@@ -365,170 +272,115 @@
     </section>
 
 
-    <!-- =========================
-         DOWNLOAD
-         ========================= -->
+    <section id="download" class="section download-section">
 
-    <section
-      id="download"
-      class="section download-section"
-    >
-      <div class="container">
+      <div class="container download-box">
 
-        <div class="section-kicker">
-          Download
+        <div class="download-copy">
+
+          <div class="section-kicker">
+            Download gratuito
+          </div>
+
+          <h2>
+            Leve o Semeadura Espírita com você.
+          </h2>
+
+          <p>
+            Baixe a versão atual do aplicativo para Android e instale
+            diretamente no seu dispositivo.
+          </p>
+
+          <div class="version-line">
+            <span class="status-dot"></span>
+            Versão atual
+            <strong>
+              v<span data-version>0.8.4</span>
+            </strong>
+          </div>
+
         </div>
 
-        <h2>
-          Baixe gratuitamente o Semeadura Espírita.
-        </h2>
 
-        <div class="download-grid">
+        <div class="download-action">
 
-          <div class="download-copy">
+          <a
+            id="downloadButton"
+            class="button button-primary large"
+            href="#"
+            rel="noopener"
+          >
+            Baixar APK <span>↓</span>
+          </a>
 
-            <p class="lead">
-              A versão atual do aplicativo está disponível gratuitamente
-              para Android.
-            </p>
+          <p class="download-meta">
+            Android • distribuição gratuita
+          </p>
 
-            <p>
-              O download é realizado diretamente a partir da publicação
-              oficial do projeto no GitHub.
-            </p>
-
-            <div class="download-meta">
-
-              <span>
-                Versão
-                <strong data-version>
-                  0.8.4
-                </strong>
-              </span>
-
-              <span>
-                Plataforma
-                <strong>
-                  Android
-                </strong>
-              </span>
-
-            </div>
-
-          </div>
-
-
-          <div class="download-card">
-
-            <div class="download-card-label">
-              APLICATIVO ANDROID
-            </div>
-
-            <h3>
-              Semeadura Espírita
-            </h3>
-
-            <p>
-              Download gratuito do arquivo APK.
-            </p>
-
-            <a
-              id="downloadButton"
-              class="button button-primary button-large"
-              href="#"
-            >
-              Baixar APK
-            </a>
-
-            <div class="download-small">
-              O download será realizado a partir do GitHub.
-            </div>
-
-          </div>
+          <p class="install-note">
+            <strong>Instalação:</strong>
+            o Android poderá solicitar autorização para instalar um aplicativo
+            obtido fora da Google Play.
+          </p>
 
         </div>
 
       </div>
+
     </section>
 
-
-    <!-- =========================
-         INSTALAÇÃO
-         ========================= -->
 
     <section class="section install-section">
 
       <div class="container">
 
-        <div class="section-kicker">
-          Instalação
+        <div class="center-heading">
+
+          <div class="section-kicker">
+            Como instalar
+          </div>
+
+          <h2>
+            Quatro passos simples.
+          </h2>
+
         </div>
 
-        <h2>
-          Como instalar no Android.
-        </h2>
 
-        <div class="steps-grid">
+        <div class="steps">
 
-          <article class="step-card">
-            <div class="step-number">
-              01
-            </div>
-
-            <h3>
-              Baixe o APK
-            </h3>
-
+          <div class="step">
+            <span>01</span>
+            <h3>Baixe</h3>
             <p>
-              Toque em “Baixar APK” e aguarde o download do arquivo.
+              Toque em “Baixar APK” e aguarde o arquivo terminar de baixar.
             </p>
-          </article>
+          </div>
 
-
-          <article class="step-card">
-            <div class="step-number">
-              02
-            </div>
-
-            <h3>
-              Abra o arquivo
-            </h3>
-
+          <div class="step">
+            <span>02</span>
+            <h3>Abra</h3>
             <p>
-              Após o download, abra o arquivo APK no dispositivo Android.
+              Localize o arquivo APK na pasta de downloads do seu dispositivo.
             </p>
-          </article>
+          </div>
 
-
-          <article class="step-card">
-            <div class="step-number">
-              03
-            </div>
-
-            <h3>
-              Autorize a instalação
-            </h3>
-
+          <div class="step">
+            <span>03</span>
+            <h3>Autorize</h3>
             <p>
-              Caso o Android solicite, permita a instalação de aplicativos
-              provenientes da fonte utilizada para o download.
+              Se o Android solicitar, permita a instalação proveniente da
+              fonte utilizada.
             </p>
-          </article>
+          </div>
 
-
-          <article class="step-card">
-            <div class="step-number">
-              04
-            </div>
-
-            <h3>
-              Instale e utilize
-            </h3>
-
+          <div class="step">
+            <span>04</span>
+            <h3>Instale</h3>
             <p>
               Conclua a instalação e abra o Semeadura Espírita.
             </p>
-          </article>
+          </div>
 
         </div>
 
@@ -537,39 +389,29 @@
     </section>
 
 
-    <!-- =========================
-         APOIE
-         ========================= -->
+    <section id="apoio" class="section support-section">
 
-    <section
-      id="apoio"
-      class="section support-section"
-    >
       <div class="container support-grid">
 
         <div>
 
           <div class="section-kicker">
-            Apoie
+            Ajude a semear
           </div>
 
           <h2>
-            Ajude a manter este projeto gratuito.
+            O conhecimento é gratuito. A manutenção do projeto envolve custos.
           </h2>
 
-          <p class="lead">
-            O Semeadura Espírita é disponibilizado gratuitamente.
+          <p>
+            O Semeadura Espírita é desenvolvido e mantido de forma independente.
+            Desenvolvimento, infraestrutura, armazenamento, manutenção e
+            atualizações podem gerar custos ao longo do tempo.
           </p>
 
           <p>
-            O desenvolvimento, manutenção e publicação do projeto envolvem
-            custos pessoais. Por isso, quem desejar contribuir pode fazê-lo
-            voluntariamente por Pix.
-          </p>
-
-          <p>
-            A contribuição é opcional e não condiciona o acesso ao aplicativo
-            ou aos materiais disponibilizados.
+            Se o projeto for útil para você e desejar contribuir voluntariamente
+            para sua continuidade, sua ajuda será bem-vinda.
           </p>
 
         </div>
@@ -577,13 +419,17 @@
 
         <div class="pix-card">
 
-          <div class="pix-label">
-            CONTRIBUIÇÃO VOLUNTÁRIA
+          <div class="pix-mark">
+            PIX
           </div>
 
           <h3>
-            Apoio por Pix
+            Contribuição voluntária
           </h3>
+
+          <p class="muted">
+            Chave PIX
+          </p>
 
           <div
             class="pix-key"
@@ -593,66 +439,63 @@
           </div>
 
           <button
-            type="button"
-            class="button button-secondary"
+            class="copy-button"
             id="copyPix"
+            type="button"
           >
-            Copiar chave Pix
+            Copiar chave PIX
           </button>
 
-          <div
-            class="pix-feedback"
-            id="pixFeedback"
-            aria-live="polite"
-          ></div>
+          <p class="tiny">
+            Contribuir é opcional. Nenhum conteúdo é desbloqueado mediante
+            contribuição. O aplicativo permanece gratuito.
+          </p>
 
         </div>
 
       </div>
+
     </section>
 
 
-    <!-- =========================
-         CONTATO
-         ========================= -->
+    <section id="contato" class="section contact-section">
 
-    <section
-      id="contato"
-      class="section contact-section"
-    >
-      <div class="container">
+      <div class="container contact-grid">
 
-        <div class="section-kicker">
-          Contato
+        <div>
+
+          <div class="section-kicker">
+            Contato
+          </div>
+
+          <h2>
+            Encontrou um erro, tem uma sugestão ou quer colaborar?
+          </h2>
+
         </div>
 
-        <h2>
-          Fale com o projeto.
-        </h2>
 
         <div class="contact-card">
 
-          <div>
-            <p>
-              Para dúvidas, sugestões, informações ou assuntos relacionados
-              ao projeto, entre em contato por e-mail.
-            </p>
-          </div>
+          <p>
+            Envie uma mensagem para:
+          </p>
 
-          <div>
+          <a
+            id="emailLink"
+            href="mailto:SEU_EMAIL_AQUI"
+          >
+            SEU_EMAIL_AQUI
+          </a>
 
-            <a
-              id="emailLink"
-              href="mailto:SEU_EMAIL_AQUI"
-            >
-              SEU_EMAIL_AQUI
-            </a>
-
-          </div>
+          <p class="tiny">
+            Sua mensagem será muito bem-vinda.
+          </p>
 
         </div>
 
       </div>
+
     </section>
 
 
@@ -676,15 +519,14 @@
           O <strong>Semeadura Espírita</strong> é um aplicativo gratuito que
           reúne e organiza, em um único espaço, materiais destinados à leitura,
           ao estudo e à reflexão espírita, priorizando obras e conteúdos que se
-          encontram em <strong>domínio público</strong> ou que são
-          disponibilizados ao projeto de acordo com as condições de uso
-          aplicáveis.
+          encontram em <strong>domínio público</strong> ou que são disponibilizados
+          ao projeto de acordo com as condições de uso aplicáveis.
         </p>
 
         <p>
           A proposta do aplicativo é facilitar o acesso a esse acervo,
-          funcionando como um <strong>ponto centralizado de consulta e
-          estudo</strong>, sem cobrança pelo acesso aos materiais.
+          funcionando como um <strong>ponto centralizado de consulta e estudo</strong>,
+          sem cobrança pelo acesso aos materiais.
         </p>
 
         <p>
@@ -741,28 +583,28 @@
         <p>
           O site <strong>Semeadura Espírita</strong> foi desenvolvido para
           apresentar o projeto e disponibilizar gratuitamente o aplicativo
-          e seus materiais. Não utilizamos, por iniciativa própria,
-          ferramentas de publicidade, rastreamento ou análise comportamental.
+          e seus materiais. Não utilizamos, por iniciativa própria, ferramentas
+          de publicidade, rastreamento ou análise comportamental.
         </p>
 
         <p>
-          O endereço de e-mail disponibilizado no site destina-se
-          exclusivamente ao contato com o projeto. As informações
-          eventualmente fornecidas pelo visitante em uma comunicação serão
-          utilizadas para responder à solicitação e não serão utilizadas
-          para fins de publicidade ou comercialização.
+          O endereço de e-mail disponibilizado no site destina-se exclusivamente
+          ao contato com o projeto. As informações eventualmente fornecidas
+          pelo visitante em uma comunicação serão utilizadas para responder
+          à solicitação e não serão utilizadas para fins de publicidade ou
+          comercialização.
         </p>
 
         <p>
-          O site não solicita cadastro, senha ou criação de conta e não
-          mantém, por iniciativa própria, um banco de dados de visitantes.
+          O site não solicita cadastro, senha ou criação de conta e não mantém,
+          por iniciativa própria, um banco de dados de visitantes.
         </p>
 
         <p>
-          Caso sejam incorporados futuramente serviços de terceiros que
-          utilizem cookies ou tecnologias semelhantes, esta informação será
-          atualizada e, quando aplicável, serão disponibilizadas as opções
-          de controle previstas pela legislação.
+          Caso sejam incorporados futuramente serviços de terceiros que utilizem
+          cookies ou tecnologias semelhantes, esta informação será atualizada
+          e, quando aplicável, serão disponibilizadas as opções de controle
+          previstas pela legislação.
         </p>
 
       </div>
@@ -772,47 +614,29 @@
   </main>
 
 
-  <!-- =========================
-       RODAPÉ
-       ========================= -->
-
   <footer class="site-footer">
 
     <div class="container footer-wrap">
 
       <div class="footer-brand">
-
-        <img
-          src="assets/app-icon.png"
-          alt=""
-        >
+        <img src="assets/app-icon.png" alt="">
 
         <span>
-
-          <strong>
-            SEMEADURA ESPÍRITA
-          </strong>
-
+          <strong>SEMEADURA ESPÍRITA</strong>
           <small>
             Conhecimento que ilumina. Estudo que transforma.
           </small>
-
         </span>
-
       </div>
-
 
       <div class="footer-meta">
         Projeto gratuito e independente •
-        <span data-version>
-          0.8.4
-        </span>
+        <span data-version>0.8.4</span>
       </div>
 
     </div>
 
   </footer>
-
 
 </body>
 </html>
