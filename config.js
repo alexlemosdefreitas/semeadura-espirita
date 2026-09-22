@@ -6,7 +6,7 @@ const SEMEADURA_CONFIG = {
   appVersion: "0.8.4",
   androidLabel: "Android",
   // Depois de criar a Release no GitHub, substitua pelo endereço da Release.
-  downloadUrl: "https://github.com/SEU_USUARIO/semeadura-espirita/releases/latest",
+  downloadUrl: "https://github.com/alexlemosdefreitas/semeadura-espirita/releases/download/v0.8.4/semeadura-espirita-v0.8.4.apk",
   // E-mail que aparecerá no site.
   email: "SEU_EMAIL_AQUI",
   // Chave PIX que aparecerá no site.
